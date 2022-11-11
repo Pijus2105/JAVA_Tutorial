@@ -22,15 +22,15 @@ public class RemoveDuplicateString {
 	        }
 	        
 
-        String s =  sb.toString().trim();
+        String SpaceModified =  sb.toString().trim();
 	        
-	        if(s.matches(input)) {
+	        if(SpaceModified.matches(input)) {
 	        	System.out.println("Single Space");
 	        } else {
 	        	System.out.println("More Space");
 	        }
 	        
-	        String SpaceModified = sb.toString().trim();
+	      
     	  
           String[] words=SpaceModified.split(" ");  //Split the word from String
           int wrc=1;    //Variable for getting Repeated word count
