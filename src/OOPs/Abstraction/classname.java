@@ -50,7 +50,22 @@ public class classname {
 			
 			
 			
+			int arr[] = {1,0,0,1,1,0,0,1,1,0,1,0};
 			
+			int n =1;
+			
+			for(int i=0; i<arr.length; i++) {
+				
+				for (int j = i+1; j<arr.length; j++) {
+					
+					if(arr[i]==arr[j]) {
+						n = n+1;
+				
+					} 
+				}
+				if(arr[i]!=0) 
+				System.out.println(n);
+			}
 			
 			
 			
